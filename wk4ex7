@@ -1,0 +1,11 @@
+#importing code from another module 
+
+from math import sqrt
+
+#giving values to variables
+x=2
+y=4
+
+#printing the product and root of two numbers
+print("the product of ",x, "and", y,"is", x*y)
+print("the root of their difference is", sqrt(y-x))
