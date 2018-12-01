@@ -1,0 +1,5 @@
+#asking user to input his/her name
+name=input("Hi there what is your name?:")
+
+#printing the user's name
+print(" Hello","\n",name,"\n","How are you?")
