@@ -1,0 +1,11 @@
+#ask user to enter name
+name=input("Please enter your name:")
+
+#ask user to enter age
+age=int(input("Please enter your age:"))
+
+#add 1 to user's name
+age+=1
+
+#print the age
+print("Hello",name,",","next year you will be",age,"years old!")
