@@ -1,0 +1,7 @@
+radius=2
+area=12.57
+#this prints out "Radius is 2"
+print(" Radius is   %d" % radius)
+
+#this prints out "Area is 12.57"
+print(" Area is %.2f" % area)
