@@ -1,0 +1,8 @@
+#asking the user to type the 1st number
+a=int(input("Please enter first number:"))
+
+#asking the user to type the 2nd number
+b=int(input("Please enter second number:"))
+
+#we print the sum of the two numbers entered by the user
+print("The sum of the numbers is:", a+b)
