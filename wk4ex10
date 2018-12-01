@@ -1,0 +1,13 @@
+p=17
+q=18
+#this will print the sum between the integer division and modulo
+print(" p//10+p%10=",p//10+p%10)
+
+#this will print the sum between the modulo of the given numbers
+print(" p%2+q%2=",p%2+q%2)
+
+#this will print the integer division of the numbers' sum
+print("(p+q)//2=",(p+q)//2)
+
+#this will print the division by 2 of the numbers' sum
+print("(p+q)/2.0=",(p+q)/2.0)
