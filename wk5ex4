@@ -1,0 +1,14 @@
+#asking the user for the magnitude
+rich=float(input("What was the magnitude of the earthquake on the Richter scale?:"))
+#comparing the magnitude and printing the effects
+if rich>=8.0:
+    print("Most structures fall")
+elif rich>=7.0:
+    print("Many buildings destroyed")
+elif rich>=6.0:
+    print("Many buildings considerably damaged,some collapse")
+elif rich>=4.5:
+    print("Damage to poorly constructed buildings")
+else:
+    print("No destruction of buildings")
+
