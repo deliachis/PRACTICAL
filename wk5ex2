@@ -1,0 +1,6 @@
+#ask user to enter y to quit
+userInput=input("Enter Y to quit.")
+
+#check if user entered y or Y and print 'Goodbye'
+if userInput=="Y"  or userInput=="y":
+    print("Goodbye")
