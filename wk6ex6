@@ -1,0 +1,3 @@
+num=int(input("Please enter a number: "))
+print("The remainder is: ",num%7)
+print("7 fits", num//7, "times in your number")
