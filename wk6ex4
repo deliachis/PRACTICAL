@@ -1,0 +1,6 @@
+my_list = [3,11,78,112,4,18]
+print(sum(my_list)/len(my_list))
+
+#or if we really want it to be in a line without declaring the list we could:
+
+print(sum([3,11,78,112,4,18])/len([3,11,78,112,4,18]))
