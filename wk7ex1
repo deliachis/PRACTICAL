@@ -1,0 +1,15 @@
+#here I declared the list
+a = [ 66.25, 333, 333, 1, 1234.5 ]
+# I used insert to insert an item to a given position
+a.insert(2, -1)
+# I used append to add in item to the end of the list
+a.append(333)
+# I printed the position of first item '333'
+print(a.index(333))
+# I removed the first item that equals with '333'
+a.remove(333)
+# I reversed the items from the list
+a.reverse()
+# I sorted the items from the list
+a.sort()
+print(a)
