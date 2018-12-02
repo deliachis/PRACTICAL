@@ -1,0 +1,11 @@
+#the program will add items to the shopping list and print the list
+# I created an empty list
+shop=[]
+#here I asked the user to add items to the list
+#if the user presses enter the list will finish and the list will be printed
+while True:
+    item=input("Please add what you want to buy:")
+    if item=="":
+        break
+    shop.append(item)
+print(shop)
