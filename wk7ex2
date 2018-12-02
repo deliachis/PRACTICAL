@@ -1,0 +1,7 @@
+#this will print a list with the squares of numbers 0-10
+squares=[]
+n=0
+while n<11:
+    squares.append(n*n)
+    n+=1
+print(squares)
