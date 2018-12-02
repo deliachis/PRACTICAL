@@ -1,0 +1,15 @@
+#assigned values to variables
+letterGrade = "F"
+grade=int(input("Please input your mark:"))
+#I compared the mark with the grades and I assigned
+#the correct mark for the grade
+if grade >= 90 :
+    letterGrade = "A"
+elif grade >= 80 :
+    letterGrade = "B"
+elif grade >= 70 :
+    letterGrade = "C"
+elif grade >= 60 :
+    letterGrade = "D"
+
+print(letterGrade)
