@@ -1,0 +1,16 @@
+#assigned a value to pass1 and asked the user for the password
+pass1="changeme"
+password=input("Please type the password:")
+# I used the variable i as a counter
+i=1
+# I checked if the passwords match
+if pass1==password:
+    print("Password accepted")
+else:
+    while pass1!=password and i<5:
+        password=input("Wrong password!Please try again:")
+        i+=1
+    if pass1==password:
+        print("Password accepted")
+    if i==5:
+        print("Access denied,please press enter to exit and contact security to reset your password")
