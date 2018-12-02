@@ -1,0 +1,7 @@
+#here I declared the list
+a = [ 66.25, 333, 333, 1, 1234.5 ]
+# I used insert to insert an item to a given position
+a.insert(2, -1)
+# I used append to add in item to the end of the list
+a.append(333)
+print(a)
