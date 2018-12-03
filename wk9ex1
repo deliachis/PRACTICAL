@@ -1,0 +1,7 @@
+#creating a class named Person
+class Person():
+    def __init__(self,firstName):
+        self.name=firstName
+#constructing an object
+harry=Person("Harry")
+print(harry.name)
