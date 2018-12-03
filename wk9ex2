@@ -1,0 +1,8 @@
+#creating a class Person
+class Person():
+    #initialize an object
+    def __init__(self):
+        self._name="unknown"
+#constructing an object
+p=Person()
+print(p._name)
