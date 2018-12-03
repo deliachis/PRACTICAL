@@ -1,0 +1,34 @@
+class CashRegister :
+#here I initialized the properties of the class for a specific object
+#I also set itemCount and totalPrice to 0
+     def __init__(self) :
+         self._itemCount = 0
+         self._totalPrice = 0.0
+
+ # this will count the items and add the value of the item to the total price
+     def addItem(self, price) :
+         self._itemCount = self._itemCount + 1
+         self._totalPrice = self._totalPrice + price
+
+ # this will return the total price
+     def getTotal(self) :
+         return self._totalPrice
+
+ # this will count the items
+     def getCount(self) :
+         return self._itemCount
+ # this will reset itemCount and totalPrice to 0
+     def clear(self) :
+         self._itemCount = 0
+         self._totalPrice = 0.0
+
+register1 = CashRegister()
+register1.addItem(0.90)
+register1.addItem(0.95)
+register2 = CashRegister()
+register2.addItem(1.90)
+print("Item count for register1: ",register1._itemCount)
+print("The total price for register1: ",register1._totalPrice)
+print("Item count for register2: ",register2._itemCount)
+print("The total price for register2: ",register2._totalPrice)
+
