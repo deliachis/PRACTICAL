@@ -1,0 +1,15 @@
+sen1=input("Please enter one sentence: ")
+sen2=input("Please enter another sentence: ")
+sen3=(sen1+" "+sen2)
+print(sen3)
+my_list=sen3.split()
+print(my_list)
+my_list.sort()
+print(my_list)
+print("The lenght of the list is: ",len(my_list))
+counter_dict={}
+for word in sen3.split():
+    if word not in counter_dict:
+        counter_dict[word]=0
+    counter_dict[word]+=1
+print(counter_dict)
