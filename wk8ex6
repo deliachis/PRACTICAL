@@ -1,0 +1,9 @@
+#I defined a function mystery which will add n to n-1 until n=0
+def mystery(n) :
+    if n <= 0 :
+        return 0
+    else:
+        return n + mystery(n - 1)
+
+print(mystery(4))
+
