@@ -1,0 +1,12 @@
+from week10 import CashRegister
+
+register1=CashRegister()
+register1.addItem(1.25)
+register1.addItem(1.75)
+register1.addItem(1.50)
+register1.getPound()
+register1.giveChange(10.00)
+print("Item count(Should be 3): ",register1.getCount())
+print("Total of item cost(Should be 4.50) ","%.2f" % register1.getTotal())
+print("In pounds:(should be 4) ",register1._getRound)
+print("Change given is:(should be 5.5) ",register1._getChange)
