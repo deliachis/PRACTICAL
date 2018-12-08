@@ -1,0 +1,41 @@
+class Student():
+    #here I initialized the properties of the class for a specific object
+    def __init__(self,surname,firstname,studentnumber,course):
+        self.surname=surname
+        self.firstname=firstname
+        self.studentnumber=studentnumber
+        self.course=course
+    #this will print student's details
+    def printDetails(self):
+        print("Surname = ",self.surname)
+        print("Firstname = ",self.firstname)
+        print("Studentnumber = ",self.studentnumber)
+        print("Course = ",self.course)
+
+    #this will return student's surname
+    def getSurname(self):
+        return self.surname
+    #this will return student's firstname
+    def getFirstname(self):
+        return self.firstname
+    #this will return student's studentnumber
+    def getStudentnumber(self):
+        return self.studentnumber
+    #this will return student's course
+    def getCourse(self):
+        return self.course
+    #this will set student's surname
+    def setSurname(self,surnameinput):
+        self.surname=surnameinput
+    #this will set student's firstname
+    def setFirstname(self,firstnameinput):
+        self.firstname=firstnameinput
+    #this will set student's student number
+    def setStudentnumber(self,studentnumber):
+        self.studentnumber=studentnumberinput
+    #this will set student's course
+    def setCourse(self,courseinput):
+        self.course=courseinput
+#here I created a new student and printed the details
+student1=Student("Chis","Delia",2154,"IT")
+student1.printDetails()
